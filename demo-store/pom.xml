@@ -125,7 +125,7 @@
 						<properties>
 							<!-- must override default port here if you want ability to override 
 								it from command line -->
-							<cargo.servlet.port>8081</cargo.servlet.port>
+							<cargo.servlet.port>8090</cargo.servlet.port>
 						</properties>
 					</configuration>
 				</configuration>
