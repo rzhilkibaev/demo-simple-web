@@ -13,6 +13,6 @@ public class WebAppIT
 	public void helloWorld() throws Exception
 	{
 		String response = Request.Get("http://localhost:8090/store/HelloWorld").execute().returnContent().asString();
-		Assertions.assertThat(response).as("response").isEqualTo("Hello World from MyService!");
+		Assertions.assertThat(response).as("response").isEqualTo("Hello World!");
 	}
 }
