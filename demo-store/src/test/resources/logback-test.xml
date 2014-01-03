@@ -1,4 +1,4 @@
-<configuration scan="true" scanPeriod="1 second" debug="true">
+<configuration scan="true" scanPeriod="1 second" debug="false">
 
   <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
     <!-- encoders are assigned the type
@@ -8,7 +8,7 @@
     </encoder>
   </appender>
 
-  <root level="debug">
+  <root level="WARN">
     <appender-ref ref="STDOUT" />
   </root>
 </configuration>
