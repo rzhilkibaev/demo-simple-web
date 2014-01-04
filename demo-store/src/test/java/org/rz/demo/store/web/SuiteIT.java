@@ -6,7 +6,7 @@ import org.junit.runner.RunWith;
 import org.junit.runners.Suite;
 
 @RunWith(Suite.class)
-@Suite.SuiteClasses({ WebAppSC.class, ProductControllerSC.class })
+@Suite.SuiteClasses({ ProductControllerSC.class })
 public class SuiteIT {
 
 	private static volatile Application app;
