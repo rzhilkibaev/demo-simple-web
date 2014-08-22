@@ -1,0 +1,14 @@
+logging:
+  
+  level: INFO
+  
+  loggers:
+    io.dropwizard.server.ServerFactory: WARN
+    org.eclipse.jetty: WARN
+    com.sun.jersey: WARN
+    io.dropwizard.jersey.DropwizardResourceConfig: INFO
+    io.dropwizard.setup.AdminEnvironment: INFO
+    org.eclipse.jetty.server.ServerConnector: INFO
+  
+  appenders:
+  - type: console
