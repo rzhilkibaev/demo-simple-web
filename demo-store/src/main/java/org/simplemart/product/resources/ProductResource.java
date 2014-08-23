@@ -11,6 +11,7 @@ import com.codahale.metrics.annotation.Timed;
 @Path("/product")
 @Produces(MediaType.APPLICATION_JSON)
 public class ProductResource {
+
     @GET
     @Path("{id}")
     @Timed
